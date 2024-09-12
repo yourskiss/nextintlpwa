@@ -1,14 +1,5 @@
 const withPWA = require('next-pwa')({
-    /*
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development',
-    register: true,
-    scope: '/',
-    sw: 'sw.js',
-    reloadOnOnline: true,
-    dynamicStartUrl: true,
-    fallBacks: {document: '/assets/offline.html' }
-*/
+
     dest: 'public',
     register: true,
     skipWaiting: true,
