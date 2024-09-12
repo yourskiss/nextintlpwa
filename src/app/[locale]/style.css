@@ -1,0 +1,5 @@
+
+.header { background: #909090; width: 100%; float: left; }
+.header ul { float:left; display:inline-flex; justify-content: flex-start; list-style:none}
+.header ul li { margin: 0 0.5rem; }
+.langactive { background-color:#000; color: #fff;}

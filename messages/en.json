@@ -1,0 +1,18 @@
+{
+    "Navigation": {
+      "english": "English",
+      "hindi": "Hindi"
+    },
+    "HomePage": {
+      "title": "Welcome to home page",
+      "description": "This is home page"
+    },
+    "AboutPage": {
+      "title": "Welcome to about us",
+      "description": "This is about us page"
+    },
+    "ContactPage": {
+      "title": "Welcome to Contact us",
+      "description": "This is contact us page"
+    }
+  }
