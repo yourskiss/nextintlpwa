@@ -1,25 +1,26 @@
 const withPWA = require('next-pwa')({
+    /*
     dest: 'public',
     disable: process.env.NODE_ENV === 'development',
     register: true,
-    scope: '/app',
-   // sw: 'sw.js',
-    /* runtimeCaching: [
-        {
-          urlPattern: /^https:\/\/example\.com\/.*\.(png|jpg|jpeg|svg|gif)$/,
-          handler: 'CacheFirst',
-          options: {
-            cacheName: 'images',
-            expiration: {
-              maxEntries: 10,
-              maxAgeSeconds: 60 * 60 * 24 * 30, // 30 days
-            },
-          },
-        },
-      ], */
+    scope: '/',
+    sw: 'sw.js',
     reloadOnOnline: true,
     dynamicStartUrl: true,
     fallBacks: {document: '/assets/offline.html' }
+*/
+    dest: 'public',
+    register: true,
+    skipWaiting: true,
+    disable: process.env.NODE_ENV === 'development',
+    rewritePaths: [
+      {
+        from: /^\/$/,
+        to: '/assets/offline.html',
+      },
+    ],
+
+
   });
   
  const createNextIntlPlugin = require('next-intl/plugin');
