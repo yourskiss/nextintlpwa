@@ -1,0 +1,8 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/[locale]/style.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+
+.header { background: #909090; width: 100%; float: left; }
+.header ul { float:left; display:inline-flex; justify-content: flex-start; list-style:none}
+.header ul li { margin: 0 0.5rem; }
+.langactive { background-color:#000; color: #fff;}
